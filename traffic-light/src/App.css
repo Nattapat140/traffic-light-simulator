@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.traffic-light-container {
+  background-color: black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.traffic-light-circle {
+  --size: 50px; /* Custom property value */
+  background-color: grey;
+  border-radius: var(--size);
+  height: var(--size);
+  width: var(--size);
+}
+
+.Road {
+  position: relative;
+  display: flex;
+  background-color: #333;
+  height: 100px;
+  margin: 15px;
+  align-items: center;
+  justify-content: end;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.Cars {
+  position: absolute;
+  font-size: 30px;
+}
+
+.car-button{
+  cursor: pointer;
+}
+
+.car-button:disabled{
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+@keyframes drive {
+  from {
+    right: -50px;
+  }
+  to {
+    right: 100%;
+  }
+}
