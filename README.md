@@ -16,3 +16,9 @@ Green -> Yellow -> Red -> Green...
   <li>When the traffic light is yellow: the cars still moving but the button will be disable</li>
   <li>When the traffic light is red: the cars stops moving and the button will still be disable</li>
 </ul>
+
+https://github.com/user-attachments/assets/611af7e6-7917-4f14-9c43-7e6c6c81b546
+
+
+
+
