@@ -33,7 +33,7 @@ function App() {
       next: "red"
     },
     green: {
-      duration: 3000,
+      duration: 2500,
       backgroundColor: "green",
       next: "yellow"
     }
